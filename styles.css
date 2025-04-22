@@ -2,9 +2,15 @@ html {
     box-sizing: border-box;
 }
 
+body {
+    margin: 0 auto;
+}
+
 .header {
     font-family: Roboto, 'Open Sans', 'Helvetica Neue';
     background: rgb(16, 126, 45);
+    margin: 0;
+    padding: 0;
 }
 
 .hero-main {
@@ -17,15 +23,24 @@ html {
 
 a {text-decoration: none;}
 
-.header-link * {
-    list-style: none;
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 24px;
+    padding: 12px 48px;
+}
+
+.header-link {
     padding: 0;
     margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
 
 .header-secondary, .header-link * {
     font-size: 18px;
     color: #E5E7EB;
-    padding: 0;
-    margin: 0;
 }
