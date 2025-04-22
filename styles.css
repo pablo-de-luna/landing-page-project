@@ -13,16 +13,6 @@ body {
     padding: 0;
 }
 
-.hero-main {
-    color: #F9FAF8;
-    font-size: 48px;
-    font-weight: 900;
-    padding: 0;
-    margin: 0;
-}
-
-a {text-decoration: none;}
-
 .header-top {
     display: flex;
     justify-content: space-between;
@@ -31,7 +21,7 @@ a {text-decoration: none;}
     padding: 12px 48px;
 }
 
-.header-link {
+.header-links {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -40,7 +30,21 @@ a {text-decoration: none;}
     gap: 24px;
 }
 
-.header-secondary, .header-link * {
+a {text-decoration: none;}
+
+.hero-section {
+    display: flex;
+}
+
+    .hero-section div h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-text p, .header-links * {
     font-size: 18px;
     color: #E5E7EB;
 }
