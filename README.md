@@ -1,1 +1,1 @@
-# landing-page-project
+Landing Page Project Exercise from The Odin Project: HTML and CSS Foundations.
