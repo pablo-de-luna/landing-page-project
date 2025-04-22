@@ -2,3 +2,30 @@ html {
     box-sizing: border-box;
 }
 
+.header {
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue';
+    background: rgb(16, 126, 45);
+}
+
+.hero-main {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+}
+
+a {text-decoration: none;}
+
+.header-link * {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-secondary, .header-link * {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 0;
+    margin: 0;
+}
