@@ -95,3 +95,27 @@ a:hover {
 button:hover {
     background-color: rgb(167, 223, 144);
 }
+
+.sub-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    margin: 48px 0;
+}
+
+.section-menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px
+}
+
+.box {
+    max-width: 200px;
+}
+
+.box img {
+    border-radius: 12px;
+
+}
