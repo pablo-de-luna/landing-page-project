@@ -9,16 +9,18 @@ body {
 
 .header {
     background: rgb(16, 126, 45);
-    margin: auto;
+    margin: 0;
     padding: 0;
 }
 
 .header-top {
+    max-width: 1300px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     row-gap: 24px;
-    padding: 12px 48px;
+    padding: 8px 40px;
 }
 
 .header-links {
@@ -46,7 +48,7 @@ a {text-decoration: none;}
 }
 
 .hero-text {
-    max-width: 400px;
+    flex: 0 1 400px;
 }
 
 .hero-text button {
@@ -55,13 +57,20 @@ a {text-decoration: none;}
     border: none;
 }
 
+.hero-text button:hover {
+    background-color: rgb(167, 223, 144);
+}
+
 .hero-text button a {
     font-size: 18px;
     color: rgb(16, 126, 45);
 }
 
 .hero-section img {
-    margin: -40px -150px 0 -250px;
+    margin: 0px -150px 0 -150px;
+    max-width: 600px;
+    max-height: 500px;
+    flow: 1;
 }
 
 .hero-section div h1 {
