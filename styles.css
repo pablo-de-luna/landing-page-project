@@ -40,8 +40,6 @@ body {
 a {text-decoration: none;}
 
 .hero-section {
-    max-width: 1000px;
-    margin: auto;
     padding: 0 40px;
     display: flex;
     flex-wrap: wrap;
@@ -101,14 +99,20 @@ button:hover {
     color: #1f2937;
     font-weight: 900;
     text-align: center;
-    margin: 48px 0;
+    margin: 40px 48px;
 }
 
 .section-menu {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px
+    gap: 24px 48px;
+    margin: 0 40px;
+}
+
+.box h3 {
+    margin: 12px 0;
+    padding: 0;
 }
 
 .box {
@@ -117,5 +121,4 @@ button:hover {
 
 .box img {
     border-radius: 12px;
-
 }
