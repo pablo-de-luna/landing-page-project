@@ -95,7 +95,7 @@ button:hover {
 }
 
 .sub-header {
-    font-size: 36px;
+    font-size: 32px;
     color: #1f2937;
     font-weight: 900;
     text-align: center;
@@ -111,14 +111,19 @@ button:hover {
 }
 
 .box h3 {
-    margin: 12px 0;
-    padding: 0;
+    margin: 12px 0 -12px;
 }
 
 .box {
     max-width: 200px;
 }
 
+.box p {
+    color: rgb(89, 89, 89);
+}
+
 .box img {
-    border-radius: 12px;
+    border-radius: 22px;
+    width: 200px;
+    height: 200px;
 }
