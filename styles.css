@@ -14,13 +14,13 @@ body {
 }
 
 .header-top {
-    max-width: 1300px;
+    max-width: 1000px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     row-gap: 24px;
-    padding: 8px 40px;
+    padding: 12px 40px;
 }
 
 .header-links {
@@ -43,7 +43,7 @@ a {text-decoration: none;}
     padding: 0 45px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -52,25 +52,21 @@ a {text-decoration: none;}
 }
 
 .hero-text button {
-    padding: 12px 24px;
+    padding: 8px;
     border-radius: 12px;
     border: none;
-}
-
-.hero-text button:hover {
-    background-color: rgb(167, 223, 144);
 }
 
 .hero-text button a {
     font-size: 18px;
     color: rgb(16, 126, 45);
+    padding: 12px 24px;
 }
 
 .hero-section img {
     margin: 0px -150px 0 -150px;
     max-width: 600px;
     max-height: 500px;
-    flow: 1;
 }
 
 .hero-section div h1 {
