@@ -112,10 +112,15 @@ button:hover {
 
 .box h3 {
     margin: 12px 0 -12px;
+    color: #1f2937;
 }
 
 .box {
     max-width: 200px;
+}
+
+.box:hover * {
+    color: rgb(16, 126, 45);
 }
 
 .box p {
