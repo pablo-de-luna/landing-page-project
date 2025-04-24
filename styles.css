@@ -182,3 +182,12 @@ button:hover {
 .signup-description {
     color: #f4f4f4;
 }
+
+.footer {
+    background: rgb(16, 126, 45);
+    color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 48px;
+}
