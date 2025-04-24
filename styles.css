@@ -60,18 +60,25 @@ a {text-decoration: none;}
     max-height: auto;
 }
 
-.hero-text button {
+button {
     padding: 8px;
     border-radius: 12px;
     border: none;
 }
 
-.hero-text button a {
+button a {
     font-size: 18px;
     color: rgb(16, 126, 45);
     padding: 12px 24px;
 }
 
+li a:hover {
+    color: rgb(167, 223, 144);
+}
+
+button:hover {
+    background-color: rgb(167, 223, 144);
+}
 
 .hero-text h1 {
     color: #F9FAF8;
@@ -84,14 +91,6 @@ a {text-decoration: none;}
 .hero-text p, .header-links * {
     font-size: 18px;
     color: #E5E7EB;
-}
-
-a:hover {
-    color: rgb(167, 223, 144);
-}
-
-button:hover {
-    background-color: rgb(167, 223, 144);
 }
 
 .sub-header {
@@ -107,7 +106,7 @@ button:hover {
     justify-content: center;
     flex-wrap: wrap;
     gap: 24px 48px;
-    margin: 0 40px;
+    margin: 0 40px 40px;
 }
 
 .box h3 {
@@ -135,13 +134,12 @@ button:hover {
 
 .quote {
     background: rgb(215, 231, 216);
-    margin-top: 40px;
 }
 
 .quote-box {
     max-width: 800px;
     margin: auto;
-    padding: 48px;
+    padding:92px 48px;
 }
 
 .quote-box p {
@@ -157,4 +155,30 @@ button:hover {
     font-weight: 900;
     text-align: right;
     margin-right: 12px;
+}
+
+.signup {
+    margin: 92px 40px;
+}
+
+.signup-box {
+    background: rgb(16, 126, 45);
+    color: #F9FAF8;
+    border-radius: 12px;
+    padding: 48px;
+    margin: 40px auto;
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 12px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup-title {
+    font-weight: 900;
+}
+
+.signup-description {
+    color: #f4f4f4;
 }
