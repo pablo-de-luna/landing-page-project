@@ -4,7 +4,7 @@ html {
 
 body {
     margin: 0 auto;
-    font-family: Roboto, 'Open Sans', 'Helvetica Neue';
+    font-family: 'Open Sans', 'Helvetica Neue';
 }
 
 /* * {outline: dotted black;} */
@@ -73,12 +73,12 @@ a {text-decoration: none;}
 }
 
 
-.hero-section div h1 {
+.hero-text h1 {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
     padding: 0;
-    margin: 0;
+    margin-bottom: -12px;
 }
 
 .hero-text p, .header-links * {
@@ -131,4 +131,30 @@ button:hover {
     border-radius: 22px;
     width: 200px;
     height: 200px;
+}
+
+.quote {
+    background: rgb(215, 231, 216);
+    margin-top: 40px;
+}
+
+.quote-box {
+    max-width: 800px;
+    margin: auto;
+    padding: 48px;
+}
+
+.quote-box p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    margin: 0;
+    padding: 0;
+}
+
+.quote-box div {
+    font-weight: 900;
+    text-align: right;
+    margin-right: 12px;
 }
